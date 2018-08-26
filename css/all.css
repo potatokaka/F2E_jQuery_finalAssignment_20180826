@@ -1,0 +1,267 @@
+body {
+    font-family: "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
+    color: #5a5a5a;
+}
+/*------------Start bar------------*/
+.bar{
+	background: #f6f6f6;
+	padding: 5px;
+	height: 20px;
+}
+.bar-inside{
+	margin: 0 auto;
+	width: 1000px;
+}
+.bar-inside ul{
+	float: right;
+}
+.bar-inside li{
+	font-size: 14px;
+	float: left;
+}
+.share-fb{
+	color: #4460a0;
+	border-right: 1px solid #666;
+	padding: 0 8px;
+	margin-right: 5px;
+	transition: .3s ease;
+
+}
+.share-fb:hover{
+	color: #243e7a;
+}
+.share-twitter{
+	color: #00aaec;
+	padding: 0 8px;
+	transition: .3s ease;
+
+}
+.share-twitter:hover{
+	color: #1789b6;
+}
+/*------------end bar------------*/
+.wrap{
+	margin: 0 auto;
+	width: 1000px;
+}
+/*------------start Header------------*/
+.header{
+	height: 60px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.logo{
+	background: url(../images/logo.png) no-repeat 50% 50%;
+	width: 170px;
+	height: 60px;
+	margin-left: 10px;
+	float: left;
+	text-indent: 101%;
+	overflow: hidden;
+	white-space: nowrap;
+	cursor: pointer;
+}
+
+.menu{
+	float: right;
+}
+.menu > li{
+	float: left;
+	position: relative;
+}
+.menu a{
+	color: #00cc99;
+	height: 60px;
+	padding: 0 10px;
+	margin: 0 1px;
+	display: block;
+	transition: .2s all;
+	line-height: 60px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.menu > li > a:hover, .menu > li > a.active{
+	color: #079975;
+	border-bottom: 3px solid #079975;
+}
+
+.submenu{
+	position: absolute;
+	top: 60px;
+	z-index: 999;
+	display:none;
+}
+.submenu li{
+	font-size: 13px;
+	padding: 0 5px;
+	background: #00cc99;
+	text-align: center;
+}
+.submenu a{
+	color: #333;
+}
+.submenu a:hover{
+	color: white;
+}
+
+/*------------start Course------------*/
+.course li{
+	width: 30%;
+	height: 320px;
+	margin: 0 1.5%;
+	float: left;
+	padding: 15px;
+	text-align: center;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	transition: .3s all;
+
+	border-radius: 2px;
+	box-shadow: 3px 3px 10px #e4e4e4;
+}
+.course li:hover{
+	background: #e4e4e4;
+}
+.course h3{
+	margin: 15px 0;
+	font-size: 16px;
+	font-weight: 700;
+}
+.course li p{
+	font-size: 14px;
+	text-align: left;
+	line-height: 1.5;
+}
+.course li a{
+	color: #333;
+}
+/*------------start Comparison------------*/
+.comparison{
+	text-align: center;
+}
+.comparison h2{
+	margin: 80px 0 25px 0;
+	font-size: 25px;
+	font-weight: 700;
+}
+.comparison table{
+	width: 90%;
+	margin: 0 auto;
+	text-align: left;
+	font-size: 15px;
+	border-top:1px solid #b6b6b6;
+}
+.comparison tr{
+	border-bottom:1px solid #b6b6b6;
+	display: block;
+}
+.comparison tr:first-child{
+	background: #f7f7f7;
+}
+.comparison tr th, .comparison tr td{
+	width: 24.5%;
+	padding: 15px 1%;
+	display: inline-block;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.comparison tr th{
+	font-size: 16px;
+	font-weight: 700;
+}
+.highlight{
+	color: #42b392;
+}
+/*------------start Application------------*/
+.application{
+	background: url(../images/form-bg.png) repeat-x;
+	text-align: center;
+	padding: 30px 0;
+	margin-top: 50px;
+}
+.application h2{
+	font-size: 22px;
+	color: white;
+	font-weight: 400;
+	line-height: 1.4;
+}
+.application form{
+	margin-top: 20px;
+	padding: 0 5%;
+}
+.application textarea{
+	float: left;
+	width: 50%;
+	border-radius: 5px;
+	border: none;
+}
+.application p{
+	float: left;
+	width: 45%;
+	margin-left: 4%;
+	color: white;
+	text-align: left;
+}
+.application p label{
+	display: block;
+	font-size: 15px;
+	margin-bottom: 5px;
+}
+ .application p input {
+	display: block;
+	width: 95%;
+	padding: 8px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	font-size: 16px;
+}
+.send-btn{
+    float: right;
+}
+
+/*start Footer*/
+.footer{
+	margin-top: 20px;
+	height: 80px;
+}
+.footer-logo{
+	background: url(../images/footer-logo.png) no-repeat;
+	width: 174px;
+	height: 36px;
+	display: block;
+	float: left;
+	text-indent: 101%;
+	overflow: hidden;
+	white-space: nowrap;
+	cursor: pointer;
+}
+.info{
+	float: right;
+	color:#333;
+	font-size: 14px;
+	line-height: 1.5;
+}
+.info a{
+	color: #e12d80;
+}
+
+.top{
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	background: #00cc99;
+	padding: 20px;
+	font-size: 18px;
+}
+.top a{
+	color: #333;
+	transition: .3s all;
+}
+.top a:hover{
+	color: white;
+}
+
